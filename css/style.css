@@ -1,0 +1,183 @@
+header{
+    text-align: center;
+}
+
+.main-content{
+    display: flex;
+
+}
+
+section{
+    border: 1px solid black;
+}
+
+.contacts{
+    width: 35%;
+    margin-left: 2rem;
+}
+
+.contacts-header{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    position: relative;
+}
+
+.contacts-search{
+    position: relative;
+}
+
+.searchbar{
+    width: 100%;
+}
+
+.fa-contacts{
+    position: absolute;
+    left: 1px;
+    bottom: 5px;
+}
+
+.contacts-header-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 55%;
+    border: 1px solid black;
+    margin-left: 1rem;
+}
+
+.contacts-ul {
+    padding: 0; /* Remueve el padding por defecto de los ul */
+    margin-bottom: 0;
+}
+
+.contacts-li{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+
+.contacts-li:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+.contacts-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+li img{
+    width: 15%;
+    border: 1px solid black;
+    border-radius: 55%;
+    margin-top: 0.4rem;
+}
+
+.chat{
+    width: 60%;
+    box-sizing: border-box;
+}
+
+.chat-header{
+    display: flex;
+    position: relative;
+}
+
+.chat-header-name{
+    margin-left: 0.6rem;
+    margin-top: 1.0rem;
+    font-size: 25px;
+}
+
+.chat-header-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 55%;
+    border: 1px solid black;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+.chat-body {
+    position: relative;
+    padding: 10px;
+}
+
+.chat-body-friend-msg,
+.chat-body-my-msg {
+    display: flex;
+    align-items: center; /* Centra verticalmente las imágenes y los mensajes */
+    margin-bottom: 10px; /* Espacio entre los mensajes */
+}
+
+.chat-body-img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    margin-right: 10px; /* Espacio entre la imagen y el mensaje */
+}
+
+.friend-msg,
+.my-msg {
+    background-color: #f1f1f1; /* Fondo del mensaje */
+    padding: 10px; /* Relleno del mensaje */
+    border-radius: 10px; /* Bordes redondeados */
+    max-width: 70%; /* Limita el ancho del mensaje */
+}
+
+.chat-body-my-msg {
+    justify-content: flex-end; /* Alinea los mensajes propios a la derecha */
+}
+
+.chat-body-my-msg .my-msg {
+    background-color: #e0ffe0; /* Color diferente para los mensajes propios */
+}
+
+.chat-footer{
+    position: relative;
+    text-align: center;
+}
+
+.chat-footer-input {
+    width: 80%;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 20px; /* Hace el input más redondeado */
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave */
+    font-size: 1rem; /* Ajusta el tamaño de la fuente */
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.chat-footer-input:focus {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada al hacer focus */
+}
+
+.chat-footer-input::placeholder {
+    color: #aaa; /* Color del placeholder */
+}
+
+.fas{
+    margin-top: 1.5rem;
+    font-size: 20px;
+    position: absolute;
+}
+
+.fa-video{
+    right: 4.9rem;
+}
+
+.fa-chat{
+    right: 2.6rem;
+}
+
+.fa-ellipsis-v{
+    right: 1rem;
+}
+
+.fas:hover{
+    cursor: pointer;
+}
+
