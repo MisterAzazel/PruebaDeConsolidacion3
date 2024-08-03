@@ -20,6 +20,7 @@ section{
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     position: relative;
+    background-color: #128C7E;
 }
 
 .contacts-search{
@@ -30,10 +31,19 @@ section{
     width: 100%;
 }
 
+.fa-contacts-header{
+    top: 0px;
+}
+
 .fa-contacts{
     position: absolute;
     left: 1px;
     bottom: 5px;
+}
+
+.fa-message{
+    right: 40px;
+    top: 1px;
 }
 
 .contacts-header-img{
@@ -47,6 +57,7 @@ section{
 .contacts-ul {
     padding: 0; /* Remueve el padding por defecto de los ul */
     margin-bottom: 0;
+    background-color: #00b8a2;
 }
 
 .contacts-li{
@@ -56,7 +67,7 @@ section{
 }
 
 .contacts-li:hover{
-    background-color: gray;
+    background-color: #02665a;
     cursor: pointer;
 }
 
@@ -77,12 +88,15 @@ li img{
 .chat{
     width: 60%;
     box-sizing: border-box;
+    background-color: #00b8a2;
 }
 
 .chat-header{
     display: flex;
     position: relative;
-
+    background-color: #128C7E;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
 }
 
 .chat-header-name{
