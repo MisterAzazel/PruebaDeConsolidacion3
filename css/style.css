@@ -82,6 +82,7 @@ li img{
 .chat-header{
     display: flex;
     position: relative;
+
 }
 
 .chat-header-name{
@@ -181,3 +182,33 @@ li img{
     cursor: pointer;
 }
 
+.fa-arrow-left{
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+        .main-content {
+            display: block;
+        }
+
+        .chat {
+            visibility: hidden;
+            width: 100vw;
+        }
+
+        .fa-arrow-left{
+            display: flex;
+            left: 0.6rem;
+        }
+
+        .chat-header-img{
+            margin-left: 2.5rem;
+        }
+
+        .contacts {
+            width: 100vw;
+            margin: 0;
+            padding: 0;
+        }
+}
