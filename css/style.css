@@ -57,13 +57,17 @@ section{
 .contacts-ul {
     padding: 0; /* Remueve el padding por defecto de los ul */
     margin-bottom: 0;
-    background-color: #00b8a2;
+    background-color: #00b8a393;
 }
 
 .contacts-li{
     text-decoration: none;
     list-style: none;
     display: flex;
+}
+
+img{
+    background-color: white;
 }
 
 .contacts-li:hover{
@@ -88,7 +92,7 @@ li img{
 .chat{
     width: 60%;
     box-sizing: border-box;
-    background-color: #00b8a2;
+    background-color: #00b8a393;
 }
 
 .chat-header{
